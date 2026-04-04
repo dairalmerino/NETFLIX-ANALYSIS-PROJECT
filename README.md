@@ -8,7 +8,7 @@ from 2016 to 2021, with a focus on whether COVID-19 changed what they produced.
 COVID-19 change what they produced?
 
 ## 🔗 Live Dashboard
-[View the interactive Streamlit dashboard here](http://localhost:8501/)
+[View the interactive Streamlit dashboard here](https://netflix-analysis-project-covid-impact.streamlit.app/)
 
 ## 📊 Key Findings
 - **Content growth:** Movie additions grew +231.6% from 2016–2017 before declining 
@@ -17,7 +17,7 @@ COVID-19 change what they produced?
   sharply at +49.1% avg per year.
 - **International content:** Peaked at 63.6% in 2018, dipped during COVID, with 
   partial recovery by 2021.
-- **Content maturity:** Netflix shifted toward mature content — PG-13 grew +143.6% 
+- **Content maturity:** Netflix shifted toward mature content; PG-13 grew +143.6% 
   and R-rated content nearly doubled (+81.4%) post-COVID.
 - **Seasonal patterns:** Netflix front-loaded its release calendar post-COVID, 
   peaking in June (+102.8%) while Q4 declined sharply (-45.0% in December).
@@ -52,7 +52,7 @@ streamlit run app.py
 [Netflix Movies and TV Shows — Kaggle](https://www.kaggle.com/datasets/shivamb/netflix-shows)
 
 ## ⚠️ Limitations
-- Dataset covers 2016–2021 only — post-COVID window limited to 2 years
+- Dataset covers 2016–2021 only; post-COVID window limited to 2 years
 - 9% of titles missing country data excluded from international analysis
 - Statistical significance limited by small sample size (TVD p=0.143)
 
