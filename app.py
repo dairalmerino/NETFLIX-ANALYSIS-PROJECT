@@ -281,9 +281,10 @@ preferences during lockdowns and practical production constraints.
 """)
 
 st.warning("""
-**Limitations:** Dataset covers 2016–2021 only. Post-COVID window limited to 2 years. 
-9% of titles missing country data. Statistical significance limited by small sample 
-size (TVD p=0.143).
+**Limitations:** 
+- Dataset covers 2016–2021 only; Post-COVID window limited to 2 years. 
+- 9% of titles missing country data
+- Statistical significance limited by small sample size (TVD p=0.143).
 """)
 
 st.markdown("""
